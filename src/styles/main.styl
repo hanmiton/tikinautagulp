@@ -39,6 +39,7 @@ body
 		list-style-type none
 		height 0
 		overflow hidden
+		transition height 0.3s ease 
 		
 		&--show
 			height 300px
@@ -47,6 +48,8 @@ body
 			a
 				text_decoration none
 				
-			
-			
-		
+
+@media(min-width: 768px)
+	.header
+		&-btn-nav
+			display none
